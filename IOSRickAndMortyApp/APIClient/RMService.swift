@@ -10,15 +10,10 @@ import Foundation
 
 /// Primary API service object to get RM data
 final class RMService{
-    
-    
     /// Shared singleton instance
     static let shared = RMService()
-    
-    
     /// Privatized constructor
     private init(){}
-    
     /// Send RM API Call
     /// - Parameters:
     ///   - request: Request Instance
